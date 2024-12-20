@@ -1,0 +1,3 @@
+Has a diagnostic ML sol gave some advice:
+Control needed, sirs patients are better control for healthy patients
+Validation set  (70-10-20)
