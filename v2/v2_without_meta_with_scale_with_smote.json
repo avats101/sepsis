@@ -1,0 +1,45 @@
+{
+    "LR": {
+        "C": 1000.0,
+        "penalty": "l2",
+        "solver": "saga"
+    },
+    "RF": {
+        "bootstrap": true,
+        "max_depth": 110,
+        "max_features": 7,
+        "min_samples_leaf": 3,
+        "min_samples_split": 8,
+        "n_estimators": 50
+    },
+    "Bagging": {
+        "n_estimators": 500
+    },
+    "XGB": {
+        "learning_rate": 0.1,
+        "max_depth": 6,
+        "n_estimators": 220
+    },
+    "LGB": {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.1,
+        "max_depth": 6,
+        "n_estimators": 100,
+        "num_leaves": 12,
+        "subsample": 0.2
+    },
+    "KNN": {
+        "algorithm": "auto",
+        "metric": "euclidean",
+        "n_neighbors": 8,
+        "p": 1,
+        "weights": "distance"
+    },
+    "SVC": {
+        "C": 9.999999999999999e-06,
+        "kernel": "rbf"
+    },
+    "GNB": {
+        "var_smoothing": 0.0071968567300115215
+    }
+}
